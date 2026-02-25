@@ -1,0 +1,17 @@
+CURL command to trigger API:
+curl -X POST "http://127.0.0.1:5000/summarize" -H "Content-Type: application/json"  -d '{"github_url":"https://api.github.com/repos/harshmandalgi/mljs-mobile"}'
+
+
+
+API RESPONSE:
+{
+  "structure": "The root directory contains the core algorithm implementations (knn.js, linear-regression.js, etc.) and HTML entry points for browser testing. A 'data' folder contains sample CSV datasets, and the PapaParse library is included for client-side data parsing.",
+  "summary": "mljs-mobile is a library of machine learning algorithms implemented in JavaScript specifically for browser-based platforms. It provides functional implementations of common models like Linear Regression, Logistic Regression, and K-Nearest Neighbors for client-side data processing.",
+  "technologies": [
+    "JavaScript",
+    "HTML",
+    "PapaParse",
+    "Node.js",
+    "CSV"
+  ]
+}
