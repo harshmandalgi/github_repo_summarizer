@@ -1,0 +1,14 @@
+Todo:
+Setup basic flask app, and test /summarize api 
+Create github token 
+Create env file for token
+Access repo name and description
+Access repo readme
+Try calling gemini with api key
+System prompt for summarisation
+Give repo name and description
+Give repo file structure
+Create simple chunks of readme content 
+Enforce JSON output
+Extract required fields
+Setup API response JSON and return
